@@ -1,0 +1,13 @@
+{
+  "name": "clicker-server",
+  "version": "0.0.1",
+  "description": "socket-io / mqtt express server",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "jstransformer": "^1.0.0",
+    "mqtt": "^2.2.1",
+    "pug": "^2.0.0-beta6",
+    "socket.io": "^1.7.2"
+  }
+}
