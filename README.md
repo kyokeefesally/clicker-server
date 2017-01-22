@@ -9,6 +9,19 @@ Install requirements:
 sudo apt-get update
 sudo apt-get -y install python-pip
 sudo pip install paho-mqtt
+sudo pip install Flask
+sudo pip install flask-socketio
+
+sudo apt-get -y install build-essential libssl-dev libffi-dev python-dev
+sudo apt-get -y install libevent-dev
+sudo apt-get -y install python-all-dev
+
+sudo apt-get -y install libnss-mdns
+
+sudo pip install eventlet
+
+sudo apt-get install nodejs npm node-semver
+
 ```
 ## Setting up MQTT Broker - Installing Mosquitto on to a RPi
 SSH into Raspberry Pi and create a new directory for temp files –
