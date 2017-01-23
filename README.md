@@ -23,6 +23,12 @@ sudo pip install eventlet
 sudo apt-get install nodejs npm node-semver
 
 ```
+Fix Node:
+```bash
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+```
 ## Setting up MQTT Broker - Installing Mosquitto on to a RPi
 SSH into Raspberry Pi and create a new directory for temp files –
 ```bash
